@@ -1,0 +1,64 @@
+Code status questionnaire:
+
+Please complete this questionnaire by selecting the appropriate answer for each question.
+Then include this file in the code that you send to your customers.
+
+** To save you some time, we marked all the features listed below as Y (yes).
+
+Import/export features:
+
+Load a PPM file implementation: Y/N -- Y
+Script command to load a PPM file: Y/N -- Y
+Load PPM file from GUI: Y/N -- Y
+
+Load a PNG/JPG file implementation: Y/N -- Y
+Script command to load a PNG/JPG file: Y/N -- Y
+Load PNG/JPG file from GUI: Y/N -- Y
+
+Save a PPM file implementation: Y/N -- Y
+Script command to save a PPM file: Y/N -- Y
+Save PPM file from GUI: Y/N -- Y
+
+Save a PNG/JPG file implementation: Y/N -- Y
+Script command to save a PNG/JPG file: Y/N -- Y
+Save PNG/JPG file from GUI: Y/N -- Y
+
+
+Image manipulations:
+
+Visualize various image components implementation: Y/N -- Y
+Script commands to load various image components: Y/N -- Y
+Visualize various image components from GUI: Y/N -- Y
+
+Flip an image horizontally implementation: Y/N -- Y
+Script command to flip an image horizontally: Y/N -- Y
+Flip an image horizontally from GUI: Y/N -- Y
+
+Flip an image vertically implementation: Y/N -- Y
+Script command to flip an image vertically: Y/N -- Y
+Flip an image vertically from GUI: Y/N -- Y
+
+Brighten/darken image implementation: Y/N -- Y
+Script command to bright/darken image: Y/N -- Y
+Brighten/darken image from GUI: Y/N -- Y
+
+Blur an image implementation: Y/N -- Y
+Script command to blur an image: Y/N -- Y
+Blur an image from GUI: Y/N -- Y
+
+Sharpen an image implementation: Y/N -- Y
+Script command to sharpen an image: Y/N -- Y
+Sharpen an image from GUI: Y/N -- Y
+
+Sepia implementation: Y/N -- Y
+Script command for sepia: Y/N -- Y
+Sepia from GUI: Y/N -- Y
+
+Histogram visualization from GUI: Y/N -- Y
+
+Program:
+
+Program runs by running main? Y/N -- Y
+Program runs correctly using -file option? Y/N -- Y
+Program runs correctly using -text option? Y/N -- Y
+Program runs correctly (opens GUI) with no command-line options? Y/N -- Y

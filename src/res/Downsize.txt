@@ -1,0 +1,5 @@
+load src/res/jungle.jpg testImage
+downsize 1000 500 testImage differentHeight
+downsize 400 400 testImage differentWidthAndHeight
+save src/res/jungleDifferentHeight.jpg differentHeight  
+save src/res/jungleDifferentWidthAndHeight.jpg differentWidthAndHeight

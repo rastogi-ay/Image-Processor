@@ -1,0 +1,4 @@
+load src/res/test.ppm test
+vertical-flip test flippedTest
+blur flippedTest blurredTest
+save src/res/blurredTest.ppm blurredTest

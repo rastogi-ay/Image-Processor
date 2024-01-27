@@ -1,0 +1,30 @@
+load src/res/jungle.jpg jungle
+mask jungle jungle-mask
+blur jungle blur-og 
+blur jungle jungle-blur jungle-mask
+sharpen jungle sharpen-og
+sharpen jungle jungle-sharpen jungle-mask
+greyscale jungle greyscale-og
+greyscale jungle jungle-greyscale jungle-mask
+sepia jungle sepia-og
+sepia jungle jungle-sepia jungle-mask
+red-component jungle red-og
+red-component jungle jungle-red jungle-mask
+blue-component jungle blue-og
+blue-component jungle jungle-blue jungle-mask
+green-component jungle green-og
+green-component jungle jungle-green jungle-mask
+intensity-component jungle intensity-og
+intensity-component jungle jungle-intensity jungle-mask
+value-component jungle value-og
+value-component jungle jungle-value jungle-mask
+luma-component jungle luma-og
+luma-component jungle jungle-luma jungle-mask
+brighten 50 jungle brighten-og
+brighten 50 jungle jungle-brighten jungle-mask
+darken -30 jungle darken-og
+darken -30 jungle jungle-darken jungle-mask
+save src/res/jungle-greyscale.jpg jungle-greyscale
+save src/res/jungle-greyscale-original.jpg greyscale-og
+save src/res/jungle-sepia.jpg jungle-sepia
+save src/res/jungle-sepia-original.jpg sepia-og

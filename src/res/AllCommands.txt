@@ -1,0 +1,16 @@
+load src/res/EiffelTower.ppm tower
+vertical-flip tower vertical
+horizontal-flip vertical horizontal
+brighten 30 horizontal brightened
+darken 30 brightened darkened
+red-component darkened red
+green-component red green 
+blue-component green blue
+value-component blue value
+luma-component value luma
+intensity-component luma intensity
+blur intensity blurred
+sharpen blurred sharpened
+greyscale sharpened grey
+sepia grey sepia
+save src/res/finishedTower.png sepia

@@ -1,0 +1,58 @@
+INTERACTIVE SCRIPTING COMMANDS:
+Loading an image must be the first thing done before you can apply a transformations to an image.
+
+load [file_path] [name]: loads an image from the computer and gives it a name on the application
+
+-file [script_file]: runs a script file with a list of commands to edit an image. Once done, exits
+                    the program
+
+save [name.x] [name]: saves the file with the given name
+                   on your computer as name.x where x is the type of file
+
+vertical-flip [name] [new_name]: vertically flips an image and saves it under a new name
+
+horizontal-flip [name] [new-name]: horizontally flips an image and saves it under a new name
+
+brighten [int] [name] [new-name]: brightens an image by a certain amount specified by an int and
+                                    saves it under a new name
+
+darken [int] [name] [new-name]: darkens an image by a certain amount specified by an int and
+                                    saves it under a new name
+
+red-component [name] [new-name]: greyscales an image based off the red component and saves it under
+                                a new name
+
+green-component [name] [new-name]: greyscales an image based off the green component and saves it under
+                                a new name
+
+blue-component [name] [new-name]: greyscales an image based off the blue component and saves it under
+                                a new name
+
+value-component [name] [new-name]: greyscales an image based off the value component and saves it under
+                                a new name
+
+luma-component [name] [new-name]: greyscales an image based off the luma component and saves it under
+                                a new name
+
+intensity-component [name] [new-name]: greyscales an image based off the intensity component and saves it under
+                                a new name
+
+blur [name] [new-name]: blurs an image and saves it under a new name
+
+sharpen [name] [new-name]: sharpens an image and saves it under a new name
+
+greyscale [name] [new-name]: greyscales an image and saves it under a new name
+
+sepia [name] [new-name]: applies a sepia tone to an image and saves it under a new name
+
+
+GRAPHICAL USER INTERFACE:
+- Once you open the GUI, first click the load button to select the image you want to load.
+    Must be either a (.ppm, .jpg, .png, .jpeg, or .bmp)
+- On the right side of the GUI is every modification you can do to an image. Click the button
+to apply the certain transformation that you would like
+- To brighten or darken an image, enter a positive value to brighten, and a negative to darken.
+- To save an image, hit the save button and select the directory you want to save the image at,
+    and enter the file name (cannot support converting between non-PPM file formats)
+- On the bottom of the GUI is the histogram for the current image being displayed. This gets
+    updated every time you make a modification to the image
